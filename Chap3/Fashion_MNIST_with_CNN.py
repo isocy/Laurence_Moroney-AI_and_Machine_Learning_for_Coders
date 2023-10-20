@@ -24,4 +24,4 @@ model = Sequential([
 model.summary()
 
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
-model.fit(train_images, train_labels, validation_data=(test_images, test_labels), epochs=5)
+model.fit(train_images, train_labels, validation_data=(test_images, test_labels), epochs=50)
